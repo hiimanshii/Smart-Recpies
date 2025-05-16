@@ -4,6 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({ // Removed mode parameter as it's no longer needed
+  base: "/Smart-Recpies/",
   server: {
     host: "::",
     port: 8080,
